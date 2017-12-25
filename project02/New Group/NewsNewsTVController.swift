@@ -66,6 +66,10 @@ class NewsNewsTVController: UITableViewController, UISearchBarDelegate/*UIViewCo
             searchUrl = (keywords.replacingOccurrences(of: " ", with: "-"))
             self.view.endEditing(true)
             updateNewsNow()
+            
+            
+            
+            
         }
     }
     
